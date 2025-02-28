@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        a {
+            text-decoration: none; 
+        }
+
+        .socical_icons .icon {
+            margin: 0 10px;
+            color: #7851A9; 
+        }
+
+        .footer-social-icons .icon {
+            margin: 0 10px;
+            color: #000; 
+        }
+    </style>
+    
 </head>
 <body>
     <div class="container">
@@ -61,15 +78,16 @@
                         <p> Let's explore the exciting innovation of technology together !</p>
                     </div>
                     <div class="text-btn">
-                        <button class="btn hire-btn">Hire me</button>
-                        <button class="btn">Download CV <i class="uil uil-file"></i></button>
+                        <button class="btn hire-btn" onclick="sendEmail()" >Hire me</button>
+                        <a href="https://raw.githubusercontent.com/twilight017/Portfolio_website/main/Resume_Suraj.pdf" class="btn" download>Download CV <i class="uil uil-file"></i></a>
+                 
                     </div>
                     <div class="socical_icons">
                         <div class="icon_circle"></div>
-                        <div class="icon"><i class="uil uil-instagram"></i></div>
-                        <div class="icon" ><i class="uil uil-linkedin-alt"></i></div>
-                        <div class="icon"><i class="uil uil-github-alt"></i></div>
-                    </div>
+                        <a href="https://www.instagram.com/soorajroka__" target="_blank" class="icon"><i class="uil uil-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/surajroka" target="_blank" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://github.com/twilight017" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a>
+                      </div>
                 </div>
                <!--
                 <div class="featured-image">
@@ -185,8 +203,8 @@
                     <div class="col">
                         <div class="form-control">
                             <div class="form-inputs">
-                                <input type="text" class="input-field" placeholder="Your Name">
-                                <input type="text" class="input-field" placeholder="Your Email">
+                                <input type="text" class="input-field" placeholder="Your Name" required>
+                                <input type="text" class="input-field" placeholder="Your Email" required>
                             </div>
                             <div class="text-area">
                                 <input type="text" class="input-subject" placeholder="Subject">
@@ -219,10 +237,9 @@
                 </div>
             </div>
             <div class="footer-social-icons">
-                <div class="icon"><i class="uil uil-instagram"></i></div>
-                <div class="icon"><i class="fa-brands fa-linkedin-in icon"></i></div>
-                <div class="icon"><i class="uil uil-github-alt"></i></div>
-                
+                <a href="https://www.instagram.com/yourprofile" target="_blank" class="icon"><i class="uil uil-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/Surajroka" target="_blank" class="icon"><i class="fa-brands fa-linkedin-in icon"></i></a>
+                <a href="https://github.com/twilight017" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a>
             </div>
             <div class="bottom-footer">
                 <p>Copyright &copy; <a href="#home" style="text-decoration: none;"> SurajRoka</a> - All Rights Reserved 2024</p>
