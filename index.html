@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+        a {
+            text-decoration: none; 
+            color: inherit; 
+        }
+
+        a:hover {
+            color: inherit; 
+        }
+
+        .socical_icons .icon {
+            margin: 0 10px;
+            color: #7851A9; 
+        }
+
+        .footer-social-icons .icon {
+            margin: 0 10px;
+            color: #000; 
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -24,16 +44,10 @@
                         <a href="#about" class="nav-link">About</a>
                         <div class="circle"></div>
                     </li>
-                    <!--
-                    <li class="nav_list">
-                        <a href="#Projects" class="nav-link">Projects</a>
-                        <div class="circle"></div>
-                    </li> -->
                     <li class="nav_list">
                         <a href="#contacts" class="nav-link">Contacts</a>
                         <div class="circle"></div>
                     </li>
-                    
                 </ul>
             </div>
             <div class="mode">
@@ -44,7 +58,6 @@
             </div>
             <div class="nav-menu-btn">
                 <i class="uil uil-bars" onclick="myMenuFunction()"></i>
-                
             </div>
         </nav>
         <main class="wrapper">
@@ -58,18 +71,19 @@
                     </div>
                     <div class="text-info">
                         <p> A Software Engineering Student</p>
-                        <p> Let's explore the exciting innovation of technology together !</p>
+                        <p> Let's explore the exciting innovation of technology together!</p>
                     </div>
                     <div class="text-btn">
                         <button class="btn hire-btn">Hire me</button>
-                        <button class="btn">Download CV <i class="uil uil-file"></i></button>
+                        <a href="Resume_Suraj.pdf" class="btn" download>Download CV <i class="uil uil-file"></i></a>
                     </div>
                     <div class="socical_icons">
                         <div class="icon_circle"></div>
-                        <div class="icon"><i class="uil uil-instagram"></i></div>
-                        <div class="icon" ><i class="uil uil-linkedin-alt"></i></div>
-                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+                        <a href="https://www.instagram.com/soorajroka__" target="_blank" class="icon"><i class="uil uil-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/surajroka" target="_blank" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://github.com/twilight017" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a>
                     </div>
+
                 </div>
                 <!--
                 <div class="featured-image">
@@ -79,122 +93,46 @@
                 </div>
             -->
             </section>
-            <div class="about-info" id ="about">
+            <div class="about-info" id="about">
                 <figure class="about-me">
                     <figcaption>
                         <img src="" alt="" class="profile" />
-                        <h2 >About Me</h2>
+                        <h2>About Me</h2>
                         <p style="text-align: justify;">
-                            Hello! I'm Suraj Roka, a detail-oriented and innovative computer science student with a strong foundation in Java, python, and software development. Experienced in project management, event coordination, and graphic design. Proven ability to lead teams, develop creative solutions, and deliver results-driven projects.
+                            Hello! I'm Suraj Roka, a detail-oriented and innovative computer science student with a strong foundation in Java, Python, and software development. Experienced in project management, event coordination, and graphic design. Proven ability to lead teams, develop creative solutions, and deliver results-driven projects.
                         </p>
                         <p style="text-align: justify;">
                             Join me on this exciting journey as I set in computer science, eager to explore the exciting realm of technology together!
                         </p>
-
+                    </figcaption>
                 </figure>
                 <button class="about-me-btn">Hire Me</button>
             </div>
-            
-           <!-- <section class="section" id="about">
-                <div class="top-header">
-                    <h1>About me</h1>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        
-                    </div>
-                    <div class="skill">
-                        <div class="skill-box">
-                            <span class="html">HTML</span>
-                            <div class="skill-bar html">
-                                <span class="skill-per">
-                                    <span class="tooltip">80%</span>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="skill-box">
-                            <span class="css">CSS</span>
-                            <div class="skill-bar css">
-                                <span class="skill-per">
-                                    <span class="tooltip">75%</span>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="skill-box">
-                            <span class="title">Python</span>
-                            <div class="skill-bar python">
-                                <span class="skill-per">
-                                    <span class="tooltip">70%</span>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="skill-box">
-                            <span class="title">JavaScript</span>
-                            <div class="skill-bar javascript">
-                                <span class="skill-per">
-                                    <span class="tooltip">45%</span>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="skill-box">
-                            <span class="title">PHP</span>
-                            <div class="skill-bar php">
-                                <span class="skill-per">
-                                    <span class="tooltip">80%</span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="section" id="Projects">
-                <div class="top-header">
-                    <h1>Projects</h1>
-                </div>
-                <div class="project-container">
-                    <div class="project-box">
-                        <i class="uil uil-briefcase-alt"></i>
-                        <h3>Projects</h3>
-                        <label>In Progress</label>
-                    </div>
-                    <div class="project-box">
-                        <i class="uil uil-briefcase-alt"></i>
-                        <h3>Clients</h3>
-                        <label> 10+ Happy Clients</label>
-                    </div>
-                    <div class="project-box">
-                        <i class="uil uil-award-alt"></i>
-                        <h3>Experience</h3>
-                        <label>1+ Years in web development</label>
-                    </div>
-                </div>
-            </section> -->
             <section class="section" id="contacts">
                 <div class="top-header">
                     <h1>Let's Work Together</h1>
-                    <span>Do you have a project in your mind, Contact me here</span>
+                    <span>Do you have a project in your mind? Contact me here</span>
                 </div>
                 <div class="row">
                     <div class="col">
                         <div class="contact-info">
                             <h2>Find me <i class="uil uil-corner-right-down"></i></h2>
-                            <p><i class="uil uil-envelope"></i>Email: Suraj.Roka2004@gmail.com</p>
+                            <p><i class="uil uil-envelope"></i>Email: <a href="mailto:Suraj.Roka2004@gmail.com">Suraj.Roka2004@gmail.com</a></p>
                             <p><i class="uil uil-phone"></i>Phone: +1 601-297-4317</p>
                         </div>
                     </div>
                     <div class="col">
                         <div class="form-control">
                             <div class="form-inputs">
-                                <input type="text" class="input-field" placeholder="Your Name">
-                                <input type="text" class="input-field" placeholder="Your Email">
+                                <input type="text" class="input-field" placeholder="Your Name" required>
+                                <input type="email" class="input-field" placeholder="Your Email" required>
                             </div>
                             <div class="text-area">
-                                <input type="text" class="input-subject" placeholder="Subject">
-                                <textarea placeholder="Message">
-                                </textarea>
+                                <input type="text" class="input-subject" placeholder="Subject" required>
+                                <textarea placeholder="Message" required></textarea>
                             </div>
                             <div class="form-button">
-                                <button class="btn">Send <i class="uil uil-message"></i></button>
+                                <button class="btn" onclick="sendEmail()">Send <i class="uil uil-message"></i></button>
                             </div>
                         </div>
                     </div>
@@ -210,19 +148,15 @@
                     <li class="footer_menu_list">
                         <a href="#about">About</a>
                     </li>
-                    <!-- <li class="footer_menu_list">
-                        <a href="#Projects">Projects</a>
-                    </li> -->
                     <li class="footer_menu_list">
                         <a href="#contacts">Contacts</a>
                     </li>
                 </div>
             </div>
             <div class="footer-social-icons">
-                <div class="icon"><i class="uil uil-instagram"></i></div>
-                <div class="icon"><i class="fa-brands fa-linkedin-in icon"></i></div>
-                <div class="icon"><i class="uil uil-github-alt"></i></div>
-                
+                <a href="https://www.instagram.com/yourprofile" target="_blank" class="icon"><i class="uil uil-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/Surajroka" target="_blank" class="icon"><i class="fa-brands fa-linkedin-in icon"></i></a>
+                <a href="https://github.com/twilight017" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a>
             </div>
             <div class="bottom-footer">
                 <p>Copyright &copy; <a href="#home" style="text-decoration: none;"> SurajRoka</a> - All Rights Reserved 2024</p>
@@ -232,5 +166,16 @@
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
 <script src="java.js"></script>
+<script>
+    function sendEmail() {
+        const name = document.querySelector('.input-field[placeholder="Your Name"]').value;
+        const email = document.querySelector('.input-field[placeholder="Your Email"]').value;
+        const subject = document.querySelector('.input-subject').value;
+        const message = document.querySelector('textarea').value;
+
+        const mailtoLink = `mailto:Suraj.Roka2004@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`)}`;
+        window.location.href = mailtoLink;
+    }
+</script>
 </body>
 </html>
