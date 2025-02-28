@@ -13,7 +13,7 @@
     --body-color: rgba(250,250,250);
     --color-white : rgba(250,250,250);
     --text-color-second: rgba(38,37,37);
-    --first-color : rgba(0,127,255);
+    --first-color : rgb(118, 13, 247);
     --first-shadow: rgba(0,0,0,0.1);
 
     --box-color: #fff;
@@ -43,7 +43,7 @@ body.dark{
 
     --nav-icon: #fff;
     --logo-color: #fff;
-    --icon-color: #007FFF;
+    --icon-color: #7851A9;
     --mode-color: #fff;
 }
 
@@ -190,13 +190,13 @@ body.dark #moon{
     font-size: 50px;
     font-weight: 600;
     margin-block: 20px ;
-    color: #007FFF;
+    color: #7851A9;
     margin-bottom: 10px;
 }
 
 .typedText{
     font-family: sans-serif;
-    color: #007FFF;
+    color: #7851A9;
     font-size: 60px;
     font-weight: 600;
     text-transform: capitalize;
@@ -227,7 +227,7 @@ body.dark #moon{
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 8px;
-    background:#007FFF;
+    background:#7851A9;
     font-weight: 500;
     transition: all 0.5s ease;
 }
@@ -255,7 +255,7 @@ i{
     height: 40px;
     color: var(--icon-color);
     border-radius: 50%;
-    box-shadow: 0px 1px 5px 3px #007FFF;
+    box-shadow: 0px 1px 5px 3px #7851A9;
     cursor: pointer;
 }
 
@@ -278,7 +278,7 @@ i{
         left: 70px;
     }
     75%{
-        border: 2px solid #007FFF;
+        border: 2px solid #7851A9;
         left: 145px;
     }
     100%{
@@ -304,10 +304,10 @@ i{
 .image{
     margin-top: 10%;
     width: 500px;
-    height: 700px;
-    border-radius: 40% 40% 40% 40%;
+    height: 650px;
+    border-radius: 20% 0% 20% 0%;
     overflow: hidden;
-    animation: imgFloat 5s ease-in-out infinite;
+    /* animation: imgFloat 5s ease-in-out infinite; */
 }
 
 .image img {
@@ -403,7 +403,7 @@ i{
     cursor: pointer;
     border: none;
     border-radius: 20px;
-    background: #007FFF;
+    background: #7851A9;
     color: #fff;
     margin-top: 20px;
     font-weight: 500;
@@ -449,7 +449,7 @@ i{
     height: 100%;
     width: 90%;
     border-radius: 6px;
-    background: #007FFF;
+    background: #7851A9;
     animation: progress 0.4s ease-in-out forwards;
     opacity: 0%;
 }
@@ -495,7 +495,7 @@ i{
     color: #fff;
     padding: 2px 6px;
     border-radius: 20px;
-    background: #007FFF;
+    background: #7851A9;
     z-index: 1;
 }
 
@@ -523,7 +523,7 @@ i{
 
 .project-box > i{
     font-size: 50px;
-    color: #007FFF;
+    color: #7851A9;
     margin-bottom: 25px;
 }
 
@@ -538,7 +538,7 @@ i{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: #007FFF;
+    background: #7851A9;
     width: 100%;
     height: 100%;
     transition: 0.4s;
@@ -590,7 +590,7 @@ i{
  }
 
  .contact-info::after{
-    color: #007FFF;
+    color: #7851A9;
  }
 
  .contact-info:hover.contact-info h2,
@@ -652,7 +652,7 @@ textarea {
     justify-content: center;
     margin-left: 40%;
     border: none;
-    background: #007FFF;
+    background: #7851A9;
     padding: 10px 20px;
     border-radius: 30px;
     color: #fff;
@@ -689,7 +689,7 @@ footer{
 }
 
 .footer_menu_list a:hover{
-    color: #007FFF;
+    color: #7851A9;
 
 }
 
